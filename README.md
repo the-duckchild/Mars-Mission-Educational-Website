@@ -1,46 +1,112 @@
-# Getting Started with Create React App
+# Mars Mission Educational Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Mars Mission Educational Website! 🚀  
+This project is a web-based educational platform designed to engage and inform users about Mars missions, space exploration, and planetary science.
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## About
+
+This website is built using [React](https://reactjs.org/) and was bootstrapped with [Create React App](https://create-react-app.dev/).  
+It provides interactive content about Mars, details of real-world and fictional missions, quizzes, multimedia, and more.
+
+## Features
+
+- 🛰️ Interactive information about Mars and Mars missions
+- 📸 Gallery of Mars images and multimedia
+- 📝 Educational resources and fun facts
+- 💬 Quiz and interactive elements (coming soon!)
+- 📱 Responsive design for desktop and mobile
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 16.x or later recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/the-duckchild/Mars-Mission-Educational-Website.git
+    cd Mars-Mission-Educational-Website
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+    ```bash
+    npm start
+    ```
+    Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`  
+  Runs the app in development mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `npm test`  
+  Launches the test runner in interactive watch mode.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `npm run build`  
+  Builds the app for production to the `build` folder.
 
-### `npm test`
+- `npm run eject`  
+  **Note:** This is a one-way operation. You can’t undo an ejection.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the [Create React App documentation](https://facebook.github.io/create-react-app/docs/available-scripts) for more details.
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```txt
+/
+├── public/
+│   └── ...          # Static assets (images, index.html)
+├── src/
+│   ├── components/  # React components
+│   ├── assets/      # Images and other resources
+│   ├── App.js       # Main application
+│   ├── index.js     # Entry point
+│   └── ...          # Additional files
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions are welcome!  
 
-### `npm run eject`
+- Please [open an issue](https://github.com/the-duckchild/Mars-Mission-Educational-Website/issues) to discuss what you would like to change.
+- Create a pull request with your improvements.
+- Make sure to follow the existing code style and add tests as appropriate.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is open source. See [LICENSE](LICENSE) for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Acknowledgements
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Built with [Create React App](https://create-react-app.dev/)
+- [NASA Mars Exploration](https://mars.nasa.gov/)
+- [React](https://reactjs.org/)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+*Made with ❤️ by [the-duckchild](https://github.com/the-duckchild)*
